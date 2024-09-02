@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Historia</title>
+    <meta name="viewport" content="width=device-width, initial-escale=1.0" />
+</head>
+<body>
+    <header>
+        <ul>
+            <li> <a href="../index.html">Inicio</a></li>
+            <li> <a href="carreras.html">Carreras</a></li>
+            <li> <a href="coches.html">Coches</a></li>
+            <li> <a href="equipo.html">Equipo</a></li>
+            <li> <a href="tienda.html">Tienda</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Compra tus productos preferidos de Red Bull</h1>
+        <form>
+            <label><u>Productos que puedes adquirir</u></label>
+                <br />
+                <br />
+            <label>Gorras</label>
+                <br />
+                <img src="../images/imagen1.jpg" alt="Red Bull Racing" height="100" width="150" />
+                <img src="../images/imagen1.jpg" alt="Red Bull Racing" height="100" width="150" />
+                <br />
+                <br />
+            <label>Camisetas</label>
+                <br />
+                <img src="../images/imagen1.jpg" alt="Red Bull Racing" height="100" width="150" />
+                <img src="../images/imagen1.jpg" alt="Red Bull Racing" height="100" width="150" />
+                <br />
+                <br />
+
+            <fieldset>
+                <label><b>Datos del Cliente</b></label>
+                <br />
+                <br />
+
+                <label>Nombre completo:</label>
+                <input type="text" id="txtNombre" required />
+
+                <label>Correo Electronico</label>
+                <input type="email" id="email" required>
+
+                <label>Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="0000-0000" required>
+                <br />
+                <br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <label><b>Detelles de envio</b></label>
+                <br />
+                <br />
+
+                <label>Pais:</label>
+                <select id="slPagar con">
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                </select>
+
+                <label>Dirección de Envío:</label>
+                <input type="text" id="direccion de envio" required>
+
+                <label>Fecha de Entrega:</label>
+                <input type="date" id="fecha de entrega" required>
+                <br />
+                <br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <label><b>Metodos de Pago</b></label>
+                <br />
+                <br />
+
+                <label>Pagar con:</label>
+                <select id="slPagar con">
+                    <option value="tarjeta de credito">Tarjeta de Credito</option>
+                    <option value="paypal">Paypal</option>
+                    <option value="transferencia bancaria">Transferencia Bancaria</option>
+                </select>
+                <br />
+            </fieldset>
+            <br />
+            <br />
+
+
+            <button type="submit">Realizar Compra</button>
+        <br />
+        <br />
+        </form>
+</main>
+    <footer>
+        Derechos reservados &copy;2024
+    </footer>
+</body>
+</html>
